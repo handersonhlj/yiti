@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="H:\Workspaces\yiti\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1-147ebd43b8027eaca836ef28f3d2817e1787b134.jar" />
+    </item>
+    <item
+        jar="H:\Workspaces\yiti\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\classes-d0912abda0011888e3d8ceaa3335bf2381346b1f.jar" />
+    </item>
+    <item
+        jar="H:\Workspaces\yiti\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1-c64e99de3dea7084a9fce9a7576abf72154a430c.jar" />
+    </item>
+    <item
+        jar="H:\Workspaces\yiti\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\classes-decbae01b4df0fc00c49f16703f9970cc06fe5eb.jar" />
+    </item>
+    <item
+        jar="H:\Workspaces\yiti\app\libs\fastjson-1.1.34.android.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="bef1d1224be099c387794bce1bdf81b38f37c6ce">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\fastjson-1.1.34.android-a504ab491250df386f78e8b0fbb4f2b4614bd449.jar" />
+    </item>
+    <item
+        jar="H:\Workspaces\yiti\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1-9f676b89954672c9aaa33a3903c39a739763acd6.jar" />
+    </item>
+    <item
+        jar="H:\Workspaces\yiti\app\libs\baidumapapi_v3_2_0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="46ca4c3c74e1ddc60b45c490485e5df05babe6a5">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\baidumapapi_v3_2_0-f6e9ea093518a4792c97c8cc9abab24c0c5a05f8.jar" />
+    </item>
+    <item
+        jar="H:\Workspaces\yiti\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\classes-f485a1cddc65c6a0d55d6b244a2c5c32bf432040.jar" />
+    </item>
+    <item
+        jar="H:\Workspaces\yiti\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\classes-a92f80d9f3b61ce9b7e2b6223ef3bc7879e7286d.jar" />
+    </item>
+    <item
+        jar="H:\Workspaces\yiti\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1-05cbae8d0118b408d70b3a6063938116c88b9785.jar" />
+    </item>
+    <item
+        jar="H:\Workspaces\yiti\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\classes-0ff2a216c11823063d7c813eef471b7b174916d7.jar" />
+    </item>
+    <item
+        jar="D:\android-sdk-current\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1-79770d17cfe67a3a56a75014b5ae936ba0bc4fbb.jar" />
+    </item>
+    <item
+        jar="H:\Workspaces\yiti\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\classes-4435699705696f1fdb18dc3fb13506f046ccfddc.jar" />
+    </item>
+    <item
+        jar="H:\Workspaces\yiti\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\classes-3e9e7c7f6f20184a86bc185f3e0dd41396283dc5.jar" />
+    </item>
+    <item
+        jar="H:\Workspaces\yiti\app\libs\easemobchat_2.1.5.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="db85b4623b9d5c43156d802e3bc60f570dcb6ff7">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\easemobchat_2.1.5-e024c3ffda0e6365e1a7aebf09a3652d048e795f.jar" />
+    </item>
+    <item
+        jar="H:\Workspaces\yiti\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\classes-bff2c1eb5c3425ce95a1b41bbcc442ca50f83633.jar" />
+    </item>
+    <item
+        jar="H:\Workspaces\yiti\app\libs\locSDK_3.3.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="590d32bdf5bb37ee372a21696b8f7853b224e31f">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\locSDK_3.3-89df18503e48d553917d478a73267b3dd1e3d2c0.jar" />
+    </item>
+    <item
+        jar="H:\Workspaces\yiti\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\classes-886cb0d56219e598498561df5cf00484e29854f5.jar" />
+    </item>
+    <item
+        jar="H:\Workspaces\yiti\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="H:\Workspaces\yiti\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1-dae0ba6e35c509f18c1c51c410320c7e2fbf4c54.jar" />
+    </item>
+
+</items>
