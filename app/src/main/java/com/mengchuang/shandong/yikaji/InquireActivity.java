@@ -6,40 +6,21 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
-import android.text.TextUtils;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
-import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONException;
 import com.alibaba.fastjson.JSONObject;
-import com.easemob.EMCallBack;
-import com.easemob.chat.EMChatManager;
-import com.easemob.chat.EMContactManager;
-import com.easemob.chat.EMGroupManager;
-import com.easemob.exceptions.EaseMobException;
-import com.easemob.util.HanziToPinyin;
-//import com.fanxin.app.Constant;
-//import com.fanxin.app.DemoApplication;
-//import com.fanxin.app.activity.BaseActivity;
-//import com.fanxin.app.db.UserDao;
-//import com.fanxin.app.domain.User;
-//import com.fanxin.app.fx.others.LoadDataFromServer;
-//import com.fanxin.app.fx.others.LoadDataFromServer.DataCallBack;
-//import com.fanxin.app.fx.others.LocalUserInfo;
 
 import java.util.HashMap;
 import java.util.Map;
-
 /**
  * 登陆页面
  */
-public class LoginActivity extends Activity {
+public class InquireActivity extends Activity {
     private EditText et_usertel;
     private EditText et_password;
     private Button btn_login;
@@ -50,13 +31,12 @@ public class LoginActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        dialog = new ProgressDialog(LoginActivity.this);
+        dialog = new ProgressDialog(InquireActivity.this);
         et_usertel = (EditText) findViewById(R.id.et_usertel);
         et_password = (EditText) findViewById(R.id.et_password);
         btn_login = (Button) findViewById(R.id.btn_login);
         btn_qtlogin = (Button) findViewById(R.id.btn_qtlogin);
         // 监听多个输入框
-
         et_usertel.addTextChangedListener(new TextChange());
         et_password.addTextChangedListener(new TextChange());
 
@@ -74,7 +54,7 @@ public class LoginActivity extends Activity {
 
                 map.put("usertel", usertel);
                 map.put("password", password);
-                startActivity(new Intent(LoginActivity.this,
+                startActivity(new Intent(InquireActivity.this,
                         RegisterActivity.class));
                 //服务器验证用户名和密码；
 //                LoadDataFromServer task = new LoadDataFromServer(
@@ -122,7 +102,7 @@ public class LoginActivity extends Activity {
 
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(LoginActivity.this,
+                startActivity(new Intent(InquireActivity.this,
                         RegisterActivity.class));
             }
 

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_top_bar"
+        android:background="@color/common_top_bar_blue">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:onClick="back"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/top_bar_back" />
+
+        <View
+            android:id="@+id/view_temp"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/iv_back"
+            android:background="#14191A" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/view_temp"
+            android:text="调查问卷"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:id="@+id/tv_zhimaxinyong"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="芝麻信用"
+                android:textColor="#353535"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cb_zhima_on"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/tv_zhimaxinyong"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="有"
+                />
+            <CheckBox
+                android:id="@+id/cb_zhima_off"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/cb_zhima_on"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="无"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:id="@+id/tv_jingdongzhanghao"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_alignLeft="@id/et_usernick"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="京东账号"
+                android:textColor="#353535"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cb_jingd_on"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/tv_jingdongzhanghao"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="有"
+                />
+            <CheckBox
+                android:id="@+id/cb_jingd_off"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/cb_jingd_on"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="无"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:id="@+id/tv_huabei"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="花呗"
+                android:textColor="#353535"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cb_huab_on"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/tv_huabei"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="有"
+                />
+            <CheckBox
+                android:id="@+id/cb_huab_off"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/cb_huab_on"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="无"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:id="@+id/tv_jiebei"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="借呗"
+                android:textColor="#353535"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cb_jieb_on"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/tv_jiebei"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="有"
+                />
+            <CheckBox
+                android:id="@+id/cb_jieb_off"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/cb_jieb_on"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="无"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:id="@+id/tv_taobao"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="淘宝等级"
+                android:textColor="#353535"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cb_taobao_on"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/tv_taobao"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="V1以下"
+                />
+            <CheckBox
+                android:id="@+id/cb_taobao_off"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/cb_taobao_on"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="V1以上"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:id="@+id/tv_baodan"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="保单"
+                android:textColor="#353535"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cb_baodan_off"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/tv_baodan"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="无"
+                />
+            <CheckBox
+                android:id="@+id/cb_baodan_on1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/cb_baodan_off"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="年缴3000以下"
+                />
+            <CheckBox
+                android:id="@+id/cb_baodan_on2"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/cb_baodan_on1"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="3000以上"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:id="@+id/tv_xueli"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="学历"
+                android:textColor="#353535"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cb_xueli_off"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/tv_xueli"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="无"
+                />
+            <CheckBox
+                android:id="@+id/cb_xueli_on1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/cb_xueli_off"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="高校学生有学生证"
+                />
+            <CheckBox
+                android:id="@+id/cb_xueli_on2"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/cb_xueli_on1"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="本科及以上"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:id="@+id/tv_zhengxin"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="个人征信情况"
+                android:textColor="#353535"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cb_zhengxin_good"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/tv_zhengxin"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="信用良好"
+                />
+            <CheckBox
+                android:id="@+id/cb_zhengxin_nogood"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/cb_zhengxin_good"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="信用不良，银行卡能够正常使用"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <CheckBox
+                android:id="@+id/cb_zhengxin_bad"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="130dp"
+                android:layout_alignParentBottom="true"
+                android:textSize="16sp"
+                android:text="信用不良，银行卡被封"
+                />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/btn_register_bg"
+            android:enabled="false"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:text="注册"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_xieyi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>
